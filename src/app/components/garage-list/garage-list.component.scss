@@ -1,0 +1,72 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.filter-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+select, input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+select {
+    width: 100%;
+}
+
+input {
+    width: calc(100% - 22px); 
+}
+
+.loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.garage-list {
+    list-style: none;
+    padding: 0;
+}
+
+.garage-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+.garage-item h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.garage-item p {
+    margin: 5px 0;
+}
+
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    color: #f44336; 
+}
